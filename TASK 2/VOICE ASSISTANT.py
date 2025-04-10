@@ -38,6 +38,9 @@ def run_assistant():
         
     elif 'hello' in command:
         talk('Hello there! How can I help you today?')
+
+    elif 'good' in command:
+        talk('Hello,How can I help you, Sir?')
         
     elif 'stop' in command:
         talk('Goodbye!')
